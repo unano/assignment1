@@ -1,0 +1,101 @@
+.contactBox{
+    width: 80px;
+    height: 98px;
+    margin: 5px;
+    padding-top: 10px;
+    border-radius: 0px;
+    border: 2px solid darkblue;
+    text-align: center;
+    margin-bottom: -2px;
+    margin-top: 0px;
+}
+
+.icons{
+    color: darkblue;
+}
+
+.icons:hover{
+    animation-name: changeColor;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes changeColor {
+    from {color: darkblue;}
+    to {color: white;}
+  }
+
+.contactMe{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.followBtn{
+    width: 100%;
+    margin-top: 6px;
+    height: 28px;
+    border: none;
+    border-top: 2px solid darkblue;
+    background-color:darkblue;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: darkblue;
+    border-radius: 0px;
+}
+
+
+.background{
+    width: 80px;
+    height: 80px;
+    background-color: darkblue;
+    position: relative;
+    margin-left: -87px;
+    margin-right:7px;
+    z-index: 1;
+    margin-top: 2px;
+}
+
+.QRcode{
+    margin: 0px;
+}
+
+.scrollDown-enter {
+    clip-path: inset(0 0 100% 0);
+  }
+  .scrollDown-enter-active {
+    clip-path: inset(0 0 0 0);
+    transition: clip-path 400ms cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  .scrollDown-enter-done {
+    clip-path: inset(0 0 0 0);
+  }
+  .scrollDown-exit {
+    clip-path: inset(0 0 100% 0);
+    transition: clip-path 400ms;
+  }
+  .scrollDown-exit-active {
+    clip-path: inset(0 0 100% 0);
+    transition: clip-path 400ms cubic-bezier(0.65, 0, 0.35, 1);
+  }
+
+
+  .linkChange-enter {
+    background-color: white;
+  }
+  .linkChange-enter-active {
+    background-color: darkblue;
+    transition: background-color 300ms;
+  }
+  .linkChange-enter-done {
+    background-color: darkblue;
+  }
+  .linkChange-exit {
+    background-color: white;
+    transition: background-color 300ms;
+  }
+  .linkChange-exit-active {
+    background-color: white;
+    transition: background-color 300ms;
+  }
