@@ -94,9 +94,8 @@
 }
 
 .RightElementsDownInside {
-  display: flex;
   background-color: white;
-  width: 32%;
+  width: 380px;
   height: 100%;
   justify-content: center;
   padding-left: 10px;
@@ -153,90 +152,6 @@
   height: 400px;
   z-index: -2;
   float: left;
-}
-
-.introTitle {
-  color: white;
-  font-size: 35px;
-  margin-left: 10px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-}
-
-.introContent {
-  color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 20px;
-  font-family: "Comfortaa", cursive;
-}
-
-.introCard,
-.introCard2 {
-  position: absolute;
-  width: 700px;
-  height: 380px;
-  /* background-color: blue; */
-  background-image: linear-gradient(
-    45deg,
-    darkblue,
-    darkblue,
-    rgb(46, 46, 255),
-    darkblue
-  );
-  margin-top: 5px;
-  margin-left: 20px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px 2px gray;
-  padding: 10px;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.introCards-enter {
-  transform: rotateY(90deg);
-}
-.introCards-enter-active {
-  transform: rotateY(0deg);
-  transition: transform 400ms cubic-bezier(0.12, 0, 0.39, 0);
-}
-.introCards-enter-done {
-  transform: rotateY(0deg);
-}
-.introCards-exit {
-  transform: rotateY(90deg);
-  transition: transform 400ms;
-}
-.introCards-exit-active {
-  transform: rotateY(90deg);
-  transition: transform 400ms cubic-bezier(0.32, 0, 0.67, 0);
-}
-
-.rotateBtn,
-.rotateBtn2 {
-  background-color: white;
-  width: 100px;
-  height: 40px;
-  float: right;
-  border: none;
-  border-radius: 50px;
-  font-family: "Comfortaa", cursive;
-  color: rgb(58, 55, 224);
-  box-shadow: 2px 2px 6px 2px gray inset;
-  margin-top: 20px;
-  margin-right: 20px;
-}
-
-.rotateBtn2 {
-  margin-top: 130px;
-  float: left;
-  margin-left: 20px;
-}
-
-.rotateBtnWord {
-  font-size: 20px;
-  font-weight: 550;
-  filter: drop-shadow(1px 1px 3px rgb(136, 136, 136));
 }
 
 .light {

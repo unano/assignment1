@@ -1,13 +1,12 @@
-.arror,
-.arror2 {
-  width: 200px;
-  height: 200px;
-  margin-bottom: -100px;
-  filter: drop-shadow(5px 5px 5px rgb(179, 178, 178));
+.arror, .arror2{
+    width: 200px;
+    height: 200px;
+    margin-bottom: -100px;
+    filter: drop-shadow(5px 5px 5px rgb(179, 178, 178));
 }
 
-.arrorWord {
-  stroke: white;
-  font-size: 20px;
-  font-family: "Raleway", sans-serif;
+.arrorWord{
+    stroke: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
