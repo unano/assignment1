@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./home.css";
 import Arror from "./components/arror";
 import ContactBox from "./components/contactBox";
@@ -10,7 +10,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faWeibo } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <>
@@ -19,13 +19,9 @@ const Home = () => {
           <div className="left"></div>
           <img src={logo} className="personalLogo" alt="ing"></img>
           <br />
-          <Link className="nav-link " to="/">
           <Arror color={"rgb(0,0,128)"} text={"Home"} />
-          </Link>
           <br />
-          <Link className="nav-link " to="./introduce">
             <Arror color={"blue"} text={"Page Intro"} />
-          </Link>
           <br />
           <Arror color={"rgb(0,0,128)"} text={"to be finished"} />
           <br />

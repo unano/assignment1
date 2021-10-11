@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./arror.css";
 
 const Arror = ({ color, text }) => {
