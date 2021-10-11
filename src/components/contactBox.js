@@ -12,14 +12,14 @@ const ContactBox = ({ iconName, link }) => {
     <>
       <CSSTransition in={linkChange} timeout={300} classNames="linkChange">
         <div className="contactBox">
-            <a href={link} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon
-            icon={iconName}
-            className="icons"
-            size="4x"
-            onMouseOver={() => setLinkChange(true)}
-            onMouseLeave={() => setLinkChange(false)}
-          ></FontAwesomeIcon>
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon
+              icon={iconName}
+              className="icons"
+              size="4x"
+              onMouseOver={() => setLinkChange(true)}
+              onMouseLeave={() => setLinkChange(false)}
+            ></FontAwesomeIcon>
           </a>
           <button
             className="followBtn"

@@ -1,318 +1,328 @@
-.body{
-    width: 80%;
-    height: 650px;
-    background-image: linear-gradient(45deg, rgb(132, 165, 194), rgb(255, 255, 255),rgb(132, 165, 194),rgb(255, 255, 255), rgb(132, 165, 194) ); 
-    margin: 0px auto;
-    padding: 3px;
-    border-radius: 10px;
-    margin-top: 50px;
+.body {
+  width: 80%;
+  height: 650px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(132, 165, 194),
+    rgb(255, 255, 255),
+    rgb(132, 165, 194),
+    rgb(255, 255, 255),
+    rgb(132, 165, 194)
+  );
+  margin: 0px auto;
+  padding: 3px;
+  border-radius: 10px;
+  margin-top: 50px;
 }
 
-.bodyInside{
-    height: 100%;
-    background-color: rgb(107, 183, 245);
-    margin: 0px auto;
-    border-radius: 8px;
+.bodyInside {
+  height: 100%;
+  background-color: rgb(107, 183, 245);
+  margin: 0px auto;
+  border-radius: 8px;
 }
 
-.personalLogo{
-    width: 190px;
-    filter: drop-shadow(2px 2px 3px rgb(172, 172, 172));
-    /* filter: drop-shadow(2px 2px 6px #333); */
+.personalLogo {
+  width: 190px;
+  filter: drop-shadow(2px 2px 3px rgb(172, 172, 172));
+  /* filter: drop-shadow(2px 2px 6px #333); */
 }
 
-.head{
-    width: 100%;
-    height: 100px;
+.head {
+  width: 100%;
+  height: 100px;
 }
-.rect01{
-    margin-left: 200px;
-}
-
-.ss{
-    background-color: aqua;
+.rect01 {
+  margin-left: 200px;
 }
 
-.homepage{
-    display:flex;
-    /* background-color: turquoise; */
-    background-color: white;
+.ss {
+  background-color: aqua;
 }
 
-.LeftElements{
-    flex:15%;
-    /* background-color: rgb(185, 255, 240); */
+.homepage {
+  display: flex;
+  /* background-color: turquoise; */
+  background-color: white;
 }
 
-.RightElements{
-    flex:87%;
-    border: 3px solid rgb(0,0,128);
-    height: 750px;
-    display: flex;
-    flex-flow: column;
-    box-shadow: 5px 5px 5px 0px gray;
-    background-color: unset;
-    z-index: 2;
-    margin-bottom: 10px;
+.LeftElements {
+  flex: 15%;
+  /* background-color: rgb(185, 255, 240); */
 }
 
-.RightElementsUp{
-    flex: 40%;
-    display: flex;
-    margin-top: 15px;
+.RightElements {
+  flex: 87%;
+  border: 3px solid rgb(0, 0, 128);
+  height: 750px;
+  display: flex;
+  flex-flow: column;
+  box-shadow: 5px 5px 5px 0px gray;
+  background-color: unset;
+  z-index: 2;
+  margin-bottom: 10px;
 }
 
-.RightElementsUpLeft{
-    flex: 36%;
+.RightElementsUp {
+  flex: 40%;
+  display: flex;
+  margin-top: 15px;
 }
 
-.RightElementsUpRight{
-    flex: 64%;
-    margin: 5px;
+.RightElementsUpLeft {
+  flex: 36%;
 }
 
-
-.RightElementsMiddle{
-    flex: 28%;
-    display: flex;
-    padding: 10px;
-    padding-top: 90px;
+.RightElementsUpRight {
+  flex: 64%;
+  margin: 5px;
 }
 
-.RightElementsDown{
-    flex: 9%;
-    display: flex;
-    justify-content: right;
-    background-color: darkblue;
-    padding-right: 20px;
+.RightElementsMiddle {
+  flex: 28%;
+  display: flex;
+  padding: 10px;
+  padding-top: 90px;
 }
 
-.RightElementsDownInside{
-    display: flex;
-    background-color: white;
-    width: 32%;
-    height: 100%;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
+.RightElementsDown {
+  flex: 9%;
+  display: flex;
+  justify-content: right;
+  background-color: darkblue;
+  padding-right: 20px;
 }
 
-.RightElementsDownLeft{
-    flex: 56%;
-    background-color: rgb(0,0,128);
-    margin: 5px;
+.RightElementsDownInside {
+  display: flex;
+  background-color: white;
+  width: 32%;
+  height: 100%;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.RightElementsDownRight{
-    flex: 44%;
-    border: 2px solid rgb(0,0,128);
-    margin: 5px;
+.RightElementsDownLeft {
+  flex: 56%;
+  background-color: rgb(0, 0, 128);
+  margin: 5px;
 }
 
-.nameLogo{
-    margin-left: 10px;
-    margin-top: 10px;
-    height: 400px;
-    filter: drop-shadow(3px 0px 5px rgb(255, 255, 255));
-    float: left;
+.RightElementsDownRight {
+  flex: 44%;
+  border: 2px solid rgb(0, 0, 128);
+  margin: 5px;
 }
 
-.besideNameLogo{
-    height: 400px;
-    margin-top: 10px;
-    width: 301px;
-    position: absolute;
-    border-bottom: 4px solid darkblue;
-    margin-left: 60px;
-    z-index: -3;
-    float: left;
-    padding-left: 30px;
-    background-image: linear-gradient(0deg, rgb(189, 231, 255), rgb(49, 49, 255)); 
-    box-shadow: 3px 0px 7px rgb(116, 116, 116);
+.nameLogo {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 400px;
+  filter: drop-shadow(3px 0px 5px rgb(255, 255, 255));
+  float: left;
 }
 
-.coverPic{
-    width: 301px;
-    height: 400px;
-    z-index: -1;
-    background-color: unset;
-    box-shadow:0px -28px 16px -16px rgb(146, 145, 255) inset;
-    opacity: 0.8;
-    float: left;
+.besideNameLogo {
+  height: 400px;
+  margin-top: 10px;
+  width: 301px;
+  position: absolute;
+  border-bottom: 4px solid darkblue;
+  margin-left: 60px;
+  z-index: -3;
+  float: left;
+  padding-left: 30px;
+  background-image: linear-gradient(0deg, rgb(189, 231, 255), rgb(49, 49, 255));
+  box-shadow: 3px 0px 7px rgb(116, 116, 116);
 }
 
-.personalImg{
-    position: relative;
-    margin-left: -301px;
-    height: 400px;
-    z-index: -2;
-    float: left;
+.coverPic {
+  width: 301px;
+  height: 400px;
+  z-index: -1;
+  background-color: unset;
+  box-shadow: 0px -28px 16px -16px rgb(146, 145, 255) inset;
+  opacity: 0.8;
+  float: left;
 }
 
-.introTitle{
-    color: white;
-    font-size: 35px;
-    margin-left: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+.personalImg {
+  position: relative;
+  margin-left: -301px;
+  height: 400px;
+  z-index: -2;
+  float: left;
 }
 
-.introContent{
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 20px;
-    font-family: 'Comfortaa', cursive;
+.introTitle {
+  color: white;
+  font-size: 35px;
+  margin-left: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
 }
 
+.introContent {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+}
 
-.introCard,.introCard2{
-    position: absolute;
-    width: 700px;
-    height: 380px;
-    /* background-color: blue; */
-    background-image: linear-gradient(45deg, darkblue,darkblue, rgb(46, 46, 255),darkblue); 
-    margin-top: 5px;
-    margin-left: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px gray;
-    padding: 10px;
-    justify-content: center;
-    overflow: hidden;
+.introCard,
+.introCard2 {
+  position: absolute;
+  width: 700px;
+  height: 380px;
+  /* background-color: blue; */
+  background-image: linear-gradient(
+    45deg,
+    darkblue,
+    darkblue,
+    rgb(46, 46, 255),
+    darkblue
+  );
+  margin-top: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px gray;
+  padding: 10px;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .introCards-enter {
-    transform: rotateY(90deg);
-  }
-  .introCards-enter-active {
-    transform: rotateY(0deg);
-    transition: transform 400ms cubic-bezier(0.12, 0, 0.39, 0);
-  }
-  .introCards-enter-done {
-    transform: rotateY(0deg);
-  }
-  .introCards-exit {
-    transform: rotateY(90deg);
-    transition: transform 400ms;
-  }
-  .introCards-exit-active {
-    transform: rotateY(90deg);
-    transition: transform 400ms cubic-bezier(0.32, 0, 0.67, 0);
-  }
-
-  .rotateBtn, .rotateBtn2{
-      background-color:white;
-      width: 100px;
-      height: 40px;
-      float:right;
-      border: none;
-      border-radius: 50px;
-      font-family: 'Comfortaa', cursive;
-      color: rgb(58, 55, 224);
-      box-shadow: 2px 2px 6px 2px gray inset;
-      margin-top: 20px;
-      margin-right: 20px;
-  }
-
-  .rotateBtn2{
-      margin-top: 130px;
-      float: left;
-      margin-left: 20px;
-
-  }
-
-.rotateBtnWord{
-    font-size: 20px;
-    font-weight: 550;
-    filter: drop-shadow(1px 1px 3px rgb(136, 136, 136));
+  transform: rotateY(90deg);
+}
+.introCards-enter-active {
+  transform: rotateY(0deg);
+  transition: transform 400ms cubic-bezier(0.12, 0, 0.39, 0);
+}
+.introCards-enter-done {
+  transform: rotateY(0deg);
+}
+.introCards-exit {
+  transform: rotateY(90deg);
+  transition: transform 400ms;
+}
+.introCards-exit-active {
+  transform: rotateY(90deg);
+  transition: transform 400ms cubic-bezier(0.32, 0, 0.67, 0);
 }
 
-.light{
-    width: 600px;
-    height: 1px;
-    transform: rotate(45deg);
-    background-color: rgb(155, 210, 245);
-    box-shadow: 0px 0px 80px 80px rgb(155, 210, 245);
-    opacity: 0.3;
-    margin-top: -20px;
-    margin-left: -320px;
+.rotateBtn,
+.rotateBtn2 {
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  float: right;
+  border: none;
+  border-radius: 50px;
+  font-family: "Comfortaa", cursive;
+  color: rgb(58, 55, 224);
+  box-shadow: 2px 2px 6px 2px gray inset;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
-.contactMe2{
-    color: white;
-    font-size: 50px;
-    margin-right: 20px;
-    font-family: 'Raleway', sans-serif;
+.rotateBtn2 {
+  margin-top: 130px;
+  float: left;
+  margin-left: 20px;
 }
 
-.contactMe2:hover{
-    filter: drop-shadow(0px 0px 6px rgb(255, 255, 255));
-}
-.personalInfoTable{
-    font-family: 'Raleway', sans-serif;
-    height: 100px;
-    border: 0px;
-    border-collapse:collapse;
+.rotateBtnWord {
+  font-size: 20px;
+  font-weight: 550;
+  filter: drop-shadow(1px 1px 3px rgb(136, 136, 136));
 }
 
-.personalInfoTable td:nth-child(odd){   
-    background:darkblue;
-    width: 100px;
-    border-bottom:3px solid rgb(167, 221, 255);
-    color: white;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+.light {
+  width: 600px;
+  height: 1px;
+  transform: rotate(45deg);
+  background-color: rgb(155, 210, 245);
+  box-shadow: 0px 0px 80px 80px rgb(155, 210, 245);
+  opacity: 0.3;
+  margin-top: -20px;
+  margin-left: -320px;
 }
 
-.personalInfoTable td:nth-child(even){   
-    width: 120px;
-    background-color: unset;
-    color: darkblue;
-    padding-left: 10px;
-    font-size: 20px;
+.contactMe2 {
+  color: white;
+  font-size: 50px;
+  margin-right: 20px;
+  font-family: "Raleway", sans-serif;
 }
 
-.personalInfoTitle{
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
-    color: white;
-    border: 2px solid darkblue;
-    background-color: darkblue;
-    height: 93px;
-    width: 132px;
-    margin-right: 30px;
-    padding: -10px;
-    margin-left: 57px;
-    letter-spacing:1px;
-    border: none;
-    border-bottom:3px solid rgb(167, 221, 255);
+.contactMe2:hover {
+  filter: drop-shadow(0px 0px 6px rgb(255, 255, 255));
+}
+.personalInfoTable {
+  font-family: "Raleway", sans-serif;
+  height: 100px;
+  border: 0px;
+  border-collapse: collapse;
 }
 
-.personalInfoTitle01{
-    margin-left: -36px;
-    color: darkblue;
-    clip-path: inset(0 76% 0 0);
-}
-.personalInfoTitle011{
-    position: relative;
-    margin-top: -46.7px;
-    margin-left: -36px;
-    clip-path: inset(0 0 0 22%);
+.personalInfoTable td:nth-child(odd) {
+  background: darkblue;
+  width: 100px;
+  border-bottom: 3px solid rgb(167, 221, 255);
+  color: white;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.personalInfoTitle02{
-    margin-left: 70px;
-    margin-right: -40px;
-
+.personalInfoTable td:nth-child(even) {
+  width: 120px;
+  background-color: unset;
+  color: darkblue;
+  padding-left: 10px;
+  font-size: 20px;
 }
 
-.personalInfoTitle022{
-    position: relative;
-    margin-top: -47px;
-    margin-left:70px;
-    margin-right: -30px;
-    clip-path: inset(0 0 0 66%);
-    color: darkblue;
+.personalInfoTitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  color: white;
+  border: 2px solid darkblue;
+  background-color: darkblue;
+  height: 93px;
+  width: 132px;
+  margin-right: 30px;
+  padding: -10px;
+  margin-left: 57px;
+  letter-spacing: 1px;
+  border: none;
+  border-bottom: 3px solid rgb(167, 221, 255);
 }
 
+.personalInfoTitle01 {
+  margin-left: -36px;
+  color: darkblue;
+  clip-path: inset(0 76% 0 0);
+}
+.personalInfoTitle011 {
+  position: relative;
+  margin-top: -46.7px;
+  margin-left: -36px;
+  clip-path: inset(0 0 0 22%);
+}
+
+.personalInfoTitle02 {
+  margin-left: 70px;
+  margin-right: -40px;
+}
+
+.personalInfoTitle022 {
+  position: relative;
+  margin-top: -47px;
+  margin-left: 70px;
+  margin-right: -30px;
+  clip-path: inset(0 0 0 66%);
+  color: darkblue;
+}

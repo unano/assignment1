@@ -36,7 +36,7 @@ const Home = () => {
               <img src={name} className="nameLogo" alt="ing"></img>
               <div className="besideNameLogo">
                 <div className="coverPic"></div>
-              <img src={face} className="personalImg" alt="ing"></img>
+                <img src={face} className="personalImg" alt="ing"></img>
               </div>
             </div>
             <div className="RightElementsUpRight">
@@ -52,13 +52,16 @@ const Home = () => {
                 <div className="introCard">
                   <h1 className="introTitle">About Me</h1>
                   <p className="introContent">
-                  My name is <strong>Gu Jiaqi</strong>. I am studying at the Hong Kong Polytechnic University. 
-                  I have finished my undergraduate study and am now a graduate student majoring 
-                  in information technology. I don't have any special hobbies.Although I'm full of 
-                  interest in many things. My personality tends to be introverted, but sometimes 
-                  I'm too enthusiastic with familiar people, which is really a big problem and distresses me.
-                  I'm cautious and often weigh things over and over again, but this also makes it difficult 
-                  for me to make decisions sometimes.
+                    My name is <strong>Gu Jiaqi</strong>. I am studying at the
+                    Hong Kong Polytechnic University. I have finished my
+                    undergraduate study and am now a graduate student majoring
+                    in information technology. I don't have any special
+                    hobbies.Although I'm full of interest in many things. My
+                    personality tends to be introverted, but sometimes I'm too
+                    enthusiastic with familiar people, which is really a big
+                    problem and distresses me. I'm cautious and often weigh
+                    things over and over again, but this also makes it difficult
+                    for me to make decisions sometimes.
                   </p>
                   <button
                     className="rotateBtn"
@@ -84,11 +87,11 @@ const Home = () => {
                 <div className="introCard2">
                   <h1 className="introTitle">My Experience</h1>
                   <p className="introContent">
-                  My undergraduate major is software engineering. 
-                  I am now a graduate student, majoring in information technology. 
-                  Since I went to graduate school after finishing undergraduate 
-                  course, I have no work experience. 
-                  I hope I can find a good job afterwards...
+                    My undergraduate major is software engineering. I am now a
+                    graduate student, majoring in information technology. Since
+                    I went to graduate school after finishing undergraduate
+                    course, I have no work experience. I hope I can find a good
+                    job afterwards...
                   </p>
                   <button
                     className="rotateBtn2"
@@ -104,39 +107,42 @@ const Home = () => {
             </div>
           </div>
           <div className="RightElementsMiddle">
-              <div className="personalInfoTitle">
-                <div className="personalInfoTitle01">Personal</div> 
-                <div className="personalInfoTitle011">Personal</div> 
-                <div className="personalInfoTitle02">Info</div> 
-                <div className="personalInfoTitle022">Info</div> 
-              </div>
-                <table className="personalInfoTable">
-                  <tr>
-                    <td>Occupation</td>
-                    <td>Student</td>
-                    <td>School</td>
-                    <td>PolyU</td>
-                    <td>Hobby</td>
-                    <td>Design?</td>
-                    <td>Programming Ability</td>
-                    <td>low</td>
-                  </tr>
-                  <tr>
-                    <td>Major</td>
-                    <td>Computing</td>
-                    <td>Programme</td>
-                    <td>Information Technology</td>
-                    <td>Other...</td>
-                  </tr>
-                </table>
+            <div className="personalInfoTitle">
+              <div className="personalInfoTitle01">Personal</div>
+              <div className="personalInfoTitle011">Personal</div>
+              <div className="personalInfoTitle02">Info</div>
+              <div className="personalInfoTitle022">Info</div>
+            </div>
+            <table className="personalInfoTable">
+              <tr>
+                <td>Occupation</td>
+                <td>Student</td>
+                <td>School</td>
+                <td>PolyU</td>
+                <td>Hobby</td>
+                <td>Design?</td>
+                <td>Programming Ability</td>
+                <td>low</td>
+              </tr>
+              <tr>
+                <td>Major</td>
+                <td>Computing</td>
+                <td>Programme</td>
+                <td>Information Technology</td>
+                <td>Other...</td>
+              </tr>
+            </table>
           </div>
           <div className="RightElementsDown">
             <div className="contactMe2">Contact Me</div>
-            <div className = "RightElementsDownInside">
-            <ContactBox iconName={faTwitter} link={"https://twitter.com/"}/>
-            <ContactBox iconName={faGithub} link={"https://github.com/"}/>
-            <ContactBox iconName={faFacebook} link={"https://www.facebook.com/"}/>
-            <ContactBox iconName={faWeibo} link={"https://weibo.com/hk/"}/>
+            <div className="RightElementsDownInside">
+              <ContactBox iconName={faTwitter} link={"https://twitter.com/"} />
+              <ContactBox iconName={faGithub} link={"https://github.com/"} />
+              <ContactBox
+                iconName={faFacebook}
+                link={"https://www.facebook.com/"}
+              />
+              <ContactBox iconName={faWeibo} link={"https://weibo.com/hk/"} />
             </div>
           </div>
         </div>
