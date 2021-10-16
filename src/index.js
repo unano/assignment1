@@ -7,7 +7,7 @@ const App = () => {
   return (
     <BrowserRouter>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route path="/" component={Home} />
             <Redirect from="*" to="/" />
           </Switch>
     </BrowserRouter>

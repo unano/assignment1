@@ -2,7 +2,7 @@
     width: 200px;
     height: 200px;
     margin-bottom: -100px;
-    filter: drop-shadow(5px 5px 5px rgb(179, 178, 178));
+    filter: drop-shadow(5px 5px 15px rgb(248, 29, 29));
 }
 
 .arrorWord{

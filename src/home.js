@@ -21,11 +21,11 @@ const Home = () => {
           <br />
           <Arror color={"rgb(0,0,128)"} text={"Home"} />
           <br />
-            <Arror color={"blue"} text={"Page Intro"} />
+            <Arror color={"blue"} text={"to be finished"} />
           <br />
           <Arror color={"rgb(0,0,128)"} text={"to be finished"} />
           <br />
-          <Arror color={"blue"} text={"Page4 waiting"} />
+          <Arror color={"blue"} text={"waiting"} />
         </div>
 
         <div className="RightElements">
